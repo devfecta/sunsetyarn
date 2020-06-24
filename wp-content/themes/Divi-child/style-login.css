@@ -1,0 +1,72 @@
+body.login {
+	background-image: url("/wp-content/uploads/LoginBackground.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+body.login div#login {}
+body.login div#login h1 {}
+
+body.login div#login h1 a {
+	background-image: url("/wp-content/uploads/LoginLogo.png");
+	height:200px;
+	width:200px;
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+	padding-bottom: 30px;
+	background-position: center top;
+	color: #999;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.3em;
+	margin: 0 auto 25px;
+	padding: 0;
+	text-decoration: none;
+	text-indent: -9999px;
+	outline: none;
+	overflow: hidden;
+	display: block;
+}
+body.login div#login form#loginform, form#lostpasswordform, form#registerform {
+	border-radius: 10px;
+}
+body.login div#login > form#registerform {
+	width: 200%;
+	margin-left: -60%;
+}
+
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {}
+body.login div#login form#loginform input {}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit, form#lostpasswordform p.submit input#wp-submit, form#registerform p.submit input#wp-submit {
+	background-color: #ce2029; /* Primary Company Color */
+	border-color: #7e0006; /* Darker Primary Company Color */
+	text-shadow: 0 -1px 1px #7e0006, 1px 0 1px #7e0006, 0 1px 1px #7e0006, -1px 0 1px #7e0006; /* Darker Primary Company Color */
+	box-shadow: 0 1px 0 #7e0006; /* Darker Primary Company Color */
+}
+body.login div#login p#nav {
+	color: #ffffff;
+}
+body.login div#login p#nav a {
+	color: #ffffff;
+}
+body.login div#login p#backtoblog {
+	color: #ffffff;
+}
+body.login div#login p#backtoblog a {
+	color: #ffffff;
+}
+.login #login_error, .login .message {
+	border-left: 4px solid #ce2029; /* Primary Company Color */
+	border-radius: 10px;
+}
+
+input[type=text]:focus, input[type=search]:focus, input[type=radio]:focus, input[type=tel]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, input[type=password]:focus, input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, select:focus, textarea:focus {
+	border-color: #ce2029; /* Primary Company Color */
+	-webkit-box-shadow: 0 0 2px rgba(206, 32, 41,.8); /* Primary Company Color */
+	box-shadow: 0 0 2px rgba(206, 32, 41,.8); /* Primary Company Color */
+}
