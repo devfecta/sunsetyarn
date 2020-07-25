@@ -1,8 +1,8 @@
 <?php
 // UNCOMMENT WHEN NEEDED --> error_reporting(E_ERROR | E_WARNING | E_PARSE);
 // UNCOMMENT WHEN NEEDED --> require_once dirname(__FILE__).'/config.php';
-
 //// Sets a Default Profile Photo
+/*
 add_filter( 'avatar_defaults', 'default_gravatar' );
 function default_gravatar ($avatar_defaults) {
 	$myavatar = get_stylesheet_directory_uri().'/gravatar.png';
@@ -21,23 +21,21 @@ function load_stylesheets() {
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'parent-style' ) );
 }
-
 //// WordPress Login, Registration, and Forgot Password Screen Style Sheet START
 add_filter( 'login_headerurl', 'my_login_logo_url' );
 function my_login_logo_url() {
     return home_url();
 }
-
 add_filter( 'login_headertext', 'my_login_logo_url_title' );
 function my_login_logo_url_title() {
     return 'Sunset Yarn, LLC';
 }
-
 add_action( 'login_enqueue_scripts', 'my_login_stylesheet' );
 function my_login_stylesheet() {
     wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/style-login.css' );
     wp_enqueue_script( 'custom-login', get_stylesheet_directory_uri() . '/style-login.js' );
 }
+*/
 //// WordPress Login, Registration, and Forgot Password Screen Style Sheet END
 ?>
 
