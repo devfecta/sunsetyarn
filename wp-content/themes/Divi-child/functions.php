@@ -32,17 +32,17 @@ function acme_login_redirect( $redirect_to, $request, $user  ) {
 */
 
 //// WordPress Login, Registration, and Forgot Password Screen Style Sheet START
-add_filter( 'login_headerurl', 'my_login_logo_url' );
+//add_filter( 'login_headerurl', 'my_login_logo_url' );
 function my_login_logo_url() {
     return home_url();
 }
 
-add_filter( 'login_headertitle', 'my_login_logo_url_title' );
+//add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 function my_login_logo_url_title() {
     return 'Sunset Yarn, LLC';
 }
 
-add_action( 'login_enqueue_scripts', 'my_login_stylesheet' );
+//add_action( 'login_enqueue_scripts', 'my_login_stylesheet' );
 function my_login_stylesheet() {
     wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/style-login.css' );
     wp_enqueue_script( 'custom-login', get_stylesheet_directory_uri() . '/style-login.js' );
