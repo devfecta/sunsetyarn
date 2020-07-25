@@ -2,7 +2,7 @@
 // UNCOMMENT WHEN NEEDED --> error_reporting(E_ERROR | E_WARNING | E_PARSE);
 // UNCOMMENT WHEN NEEDED --> require_once dirname(__FILE__).'/config.php';
 //// Sets a Default Profile Photo
-/*
+
 add_filter( 'avatar_defaults', 'default_gravatar' );
 function default_gravatar ($avatar_defaults) {
 	$myavatar = get_stylesheet_directory_uri().'/gravatar.png';
@@ -35,10 +35,9 @@ function my_login_stylesheet() {
     wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/style-login.css' );
     wp_enqueue_script( 'custom-login', get_stylesheet_directory_uri() . '/style-login.js' );
 }
-*/
+
 //// WordPress Login, Registration, and Forgot Password Screen Style Sheet END
 ?>
-
 <?php
 // Adds Google Analytics Code
 //add_action('wp_head', 'add_googleanalytics');
