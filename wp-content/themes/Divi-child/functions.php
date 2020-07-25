@@ -5,8 +5,9 @@
 //// Sets a Default Profile Photo
 add_filter( 'avatar_defaults', 'default_gravatar' );
 function default_gravatar ($avatar_defaults) {
-	$myavatar = get_site_url().'/wp-content/uploads/gravatar.jpg';
-	$avatar_defaults[$myavatar] = "Custom Gravatar";
+	$myavatar = get_stylesheet_directory_uri().'/gravatar.png';
+	//$myavatar = get_site_url().'/wp-content/uploads/gravatar.png';
+	$avatar_defaults[$myavatar] = "Sunset Yarn Gravatar";
 	return $avatar_defaults;
 }
 //// Sets Custom Footer on Admin Side
@@ -38,7 +39,7 @@ function my_login_logo_url() {
 
 add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 function my_login_logo_url_title() {
-    return '[Company Name]';
+    return 'Sunset Yarn, LLC';
 }
 
 add_action( 'login_enqueue_scripts', 'my_login_stylesheet' );

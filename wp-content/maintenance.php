@@ -15,10 +15,10 @@
 <body>
 <section>
     <div style="text-align: center;">
-        <img src="./wp-content/uploads/2020/07/Sunset-Yarn-V.png" alt="Sunset Yarn, LLC" style="clear: both; margin: 1em;" /><br />
+        <img src="https://sunsetyarn.com/wp-content/uploads/2020/07/Sunset-Yarn-V.png" alt="Sunset Yarn, LLC" style="clear: both; margin: 1em;" /><br />
         <strong style="font-size: 3em;">Opening in October 2020</strong>
+	<p style="font-size:2em">3742 Speedway Rd Madison, WI 53705</p>
         <h2>For More Information Contact Us At:</h2>
-        <p><strong>Mailing Address: </strong>3742 Speedway Rd Madison, WI 53705</p>
         <p><strong>e-Mail: </strong><a href="mailto:lynette@sunsetyarn.com">lynette@sunsetyarn.com</a></p>
         <p><strong>Phone: </strong>(608) 957-6008</p>
     </div>

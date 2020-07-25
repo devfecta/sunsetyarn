@@ -1,20 +1,23 @@
 body.login {
-	background-image: url("/wp-content/uploads/LoginBackground.png");
+	/*
+	background-image: url("/wp-content/themes/Divi-child/LoginBackground.png");
 	background-repeat: no-repeat;
 	background-position: center top;
+	*/
+	background-color: #43457f;
 }
 body.login div#login {}
 body.login div#login h1 {}
 
 body.login div#login h1 a {
-	background-image: url("/wp-content/uploads/LoginLogo.png");
+	background-image: url("/wp-content/themes/Divi-child/Sunset-Yarn.png");
 	height:200px;
 	width:200px;
 	background-size: 200px 200px;
 	background-repeat: no-repeat;
 	padding-bottom: 30px;
 	background-position: center top;
-	color: #999;
+	color: #feda84;
 	font-size: 20px;
 	font-weight: normal;
 	line-height: 1.3em;
@@ -43,30 +46,30 @@ body.login div#login form#loginform p.forgetmenot {}
 body.login div#login form#loginform p.forgetmenot input#rememberme {}
 body.login div#login form#loginform p.submit {}
 body.login div#login form#loginform p.submit input#wp-submit, form#lostpasswordform p.submit input#wp-submit, form#registerform p.submit input#wp-submit {
-	background-color: #ce2029; /* Primary Company Color */
-	border-color: #7e0006; /* Darker Primary Company Color */
-	text-shadow: 0 -1px 1px #7e0006, 1px 0 1px #7e0006, 0 1px 1px #7e0006, -1px 0 1px #7e0006; /* Darker Primary Company Color */
-	box-shadow: 0 1px 0 #7e0006; /* Darker Primary Company Color */
+	background-color: #43457f; /* Primary Company Color */
+	border-color: #43457f; /* Darker Primary Company Color */
+	text-shadow: 0 -1px 1px #43457f, 1px 0 1px #43457f, 0 1px 1px #43457f, -1px 0 1px #43457f; /* Darker Primary Company Color */
+	box-shadow: 0 1px 0 #43457f; /* Darker Primary Company Color */
 }
 body.login div#login p#nav {
-	color: #ffffff;
+	color: #feda84;
 }
 body.login div#login p#nav a {
-	color: #ffffff;
+	color: #feda84;
 }
 body.login div#login p#backtoblog {
-	color: #ffffff;
+	color: #feda84;
 }
 body.login div#login p#backtoblog a {
-	color: #ffffff;
+	color: #feda84;
 }
 .login #login_error, .login .message {
-	border-left: 4px solid #ce2029; /* Primary Company Color */
+	border-left: 4px solid #43457f; /* Primary Company Color */
 	border-radius: 10px;
 }
 
 input[type=text]:focus, input[type=search]:focus, input[type=radio]:focus, input[type=tel]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, input[type=password]:focus, input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, select:focus, textarea:focus {
-	border-color: #ce2029; /* Primary Company Color */
-	-webkit-box-shadow: 0 0 2px rgba(206, 32, 41,.8); /* Primary Company Color */
-	box-shadow: 0 0 2px rgba(206, 32, 41,.8); /* Primary Company Color */
+	border-color: #43457f; /* Primary Company Color */
+	-webkit-box-shadow: 0 0 2px rgba(67, 69, 127, 0.8); /* Primary Company Color */
+	box-shadow: 0 0 2px rgba(67, 69, 127, 0.8); /* Primary Company Color */
 }
